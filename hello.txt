@@ -1,0 +1,50 @@
+This updated **Architectural Blueprint (AB)** breaks down your "Task & Goal Reminder" app into specific technical components. Each detail is designed to ensure your app is both advanced and easy to manage across your home and work computers.
+
+### **Part 1: The Face (Front-End / User Interface)**
+**Technical Term:** **Graphical User Interface (GUI) with Priority Input**.
+**Simpler Language:** This is the screen you see and interact with.
+*   **Minimalist Task Dashboard:** A clean, simplified screen focused only on essential tasks to reduce beginner confusion.
+*   **Importance Slider:** A visual input tool that lets you assign a numerical priority value to each goal.
+*   **Dual-Task Display:** A layout that clearly shows two tasks even if they have the exact same due date.
+*   **Progress Visualization:** A visual graph similar to a Git commit graph to show your goal history.
+
+### **Part 2: The Smart Brain (Back-End / AI Logic)**
+**Technical Term:** **LLM-Based Prioritization Engine (Gemini integration)**.
+**Simpler Language:** This is the "Super Smart Coach" that understands your goals.
+*   **Contextual Analysis:** Gemini analyzes the text of your tasks to understand which ones are truly critical compared to others.
+*   **Motivational Notification Engine:** An AI feature that writes personalized, encouraging messages based on your progress.
+*   **Intelligent Ranking:** A backend system that automatically re-orders your list so the most important goal always appears first.
+*   **Error Tracking:** An internal system to log "Exceptions" (errors) so you know if the AI brain stops working.
+
+### **Part 3: The Organizer (Conflict & Priority Logic)**
+**Technical Term:** **Priority-Based Queueing and Conflict Resolution**.
+**Simpler Language:** This is the rule-maker that keeps your list in order.
+*   **Same-Day Sorting:** Logic that pushes higher-importance tasks to the top of your list when dates overlap.
+*   **Task Disagreement Handling:** A system to identify "Merge Conflicts" if your home and work computers have different versions of the same task.
+*   **Conflict Dividers:** Visual markers that show you two different versions of a task so you can choose which one to keep.
+*   **History Preservation:** A system that keeps a record of all your old goals so you can view your combined history.
+
+### **Part 4: The Teleporter (Multi-Computer Sync)**
+**Technical Term:** **Remote Repository Synchronization (GitHub Desktop)**.
+**Simpler Language:** This is the bridge that moves your app between your work PC and home laptop.
+*   **Cloud Repository:** A central home on GitHub that stores your project files and history.
+*   **One-Click Cloning:** A simple way to download your entire project onto your home laptop using GitHub Desktop.
+*   **The Pull First Rule:** A mandatory sync at the start of every session to get the latest work from your other computer.
+*   **The Push Last Rule:** A mandatory sync at the end of every session to send your work up to the "Cloud Toy Box".
+*   **Commit Summaries:** Short notes you write every time you save so you remember what you changed.
+
+### **Part 5: The Self-Cleaner (Internal Maintenance)**
+**Technical Term:** **Regex-Based Log Sanitization (SmartCrusher)**.
+**Simpler Language:** This is a magic vacuum that keeps the app's internal diary clean.
+*   **Timestamp Stripping:** A "Regex" function that automatically erases repetitive time-clocks from your logs.
+*   **Duplicate Line Removal:** Logic that throws away "copy-cat" lines to save memory space.
+*   **Noise Filtering:** A system that deletes useless background "chatter" while keeping the "Uh-oh!" error messages.
+*   **Performance Optimization:** A lightweight script that ensures the app stays fast by cleaning up its own data.
+
+### **Part 6: The Safety Net (Troubleshooting)**
+**Technical Term:** **Version Control Recovery and History Merging**.
+**Simpler Language:** These are the tools that fix your app if it gets "lost."
+*   **History Re-linking:** Using special flags like `--allow-unrelated-histories` if your local and cloud projects accidentally disconnect.
+*   **Snapshot Recovery:** The ability to travel back in time to a previous "Commit" if you break your code.
+*   **Branch Pruning:** A cleaning tool to remove old, deleted "paths" or versions of your app you no longer need.
+*   **Safe Resetting:** A tool to undo mistakes and return your files to a "known good" state.
